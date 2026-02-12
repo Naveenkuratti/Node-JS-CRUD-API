@@ -1,32 +1,37 @@
 # 🚀 Node-JS-CRUD-API
 
-A RESTful CRUD API built using **Node.js**, **Express.js**, **MongoDB Atlas**, and **Mongoose** for managing contact data.
+A simple RESTful CRUD API built using **Node.js**, **Express.js**, **MongoDB Atlas**, and **Mongoose** for managing contact data.
 
----
+## 🔧 Tech Stack
+Node.js | Express.js | MongoDB Atlas | Mongoose | Dotenv | Nodemon
 
 ## 📌 Features
+- Create Contact
+- Get All Contacts
+- Get Contact by ID
+- Update Contact
+- Delete Contact
 
-- ✅ Create Contact
-- ✅ Get All Contacts
-- ✅ Get Contact by ID
-- ✅ Update Contact
-- ✅ Delete Contact
-- ✅ MongoDB Atlas Integration
-- ✅ Proper Error Handling
-- ✅ Tested using Postman
+## ⚙️ Setup
 
----
+```bash
+git clone https://github.com/Naveenkuratti/Node-JS-CRUD-API.git
+cd Node-JS-CRUD-API
+npm install
 
-## 🛠 Tech Stack
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
 
-- Node.js
-- Express.js
-- MongoDB Atlas
-- Mongoose
-- Nodemon
-- Dotenv
+npm run dev
+Server runs at:
+http://localhost:5000
 
----
+🔗 API Endpoints
 
-## 📂 Project Structure
+GET /api/contacts
+GET /api/contacts/:id
+POST /api/contacts
+PUT /api/contacts/:id
+DELETE /api/contacts/:id
 
+👨‍💻 Developed by Naveen Kuratti
